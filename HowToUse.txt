@@ -1,4 +1,4 @@
-根据虚拟机位数选择ROM文件，如果32位选择EFI32，如果64位选择EFI64，然后把rom放在虚拟机文件夹内，完成后使用记事本在虚拟机vmx文件末尾添加以下文字
+Select the ROM file according to the virtual machine's bit version: EFI32 for 32-bit and EFI64 for 64-bit. Place the ROM file in the virtual machine's folder. Then, use Notepad to add the following text to the end of the virtual machine's vmx file:
 
-efi32.filename = "EFI32-MACOS.ROM"（32位）
-efi64.filename = "EFI64-MACOS.ROM"（64位）
+efi32.filename = "EFI32-MACOS.ROM" (32-bit)
+efi64.filename = "EFI64-MACOS.ROM" (64-bit)
